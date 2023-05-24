@@ -3,8 +3,9 @@
   import City from '$lib/components/City.svelte';
   export let data;
 
-  const countryCode = data.countryCode;
-  console.log(countryCode);
+  let countryCode = data.countryCode;
+  //console.log({countryCode});
+  console.log(data);
 
   async function testData(){
 

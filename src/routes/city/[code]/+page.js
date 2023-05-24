@@ -1,4 +1,4 @@
-/**
+/*
    export async function load({params}) {
     let Citycode = params.code;
 
@@ -8,8 +8,17 @@
     const data = await response.json();
   
     return {data};
+  }*/
+  
+  export const load= ({params}) =>{
+
+  
+    return {countryCode:params.code};
   }
-  */
+  
+
+  
+  
 
   
   

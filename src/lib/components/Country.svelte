@@ -1,6 +1,7 @@
    <script>
     export let countryData;
     const flagURL = "/flags/" + countryData.Code2.toLowerCase() +".webp";
+
   </script>
   
   <section>

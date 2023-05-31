@@ -21,7 +21,7 @@
 <section>
 
   {#await testData()}
-    <p>looding</p>
+    <p>loading</p>
   {:then testData } 
   {#each testData.list as city}
   <City CityData={city} />
